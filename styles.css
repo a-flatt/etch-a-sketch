@@ -1,3 +1,8 @@
+.container {
+
+    max-width: 960px;
+    max-height: 960px;
+}
 
 .row-normal {
     display: flex;
@@ -12,8 +17,9 @@
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    height: 50px;
-    width: 50px;
+    min-height: 5px;
+    min-width: 5px;
+    flex: 1;
     margin-top: 5px;
 }
 
@@ -23,7 +29,8 @@
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    height: 50px;
-    width: 50px;
+    flex: 1;
+    min-height: 5px;
+    min-width: 5px;
     margin-top: 5px;
 }
