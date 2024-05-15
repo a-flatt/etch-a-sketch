@@ -10,5 +10,9 @@ for (i = 0; i < 16; i++){
         const column = document.createElement("div")
         column.setAttribute("class", "column-normal");
         row.appendChild(column);
+        column.addEventListener("mouseover", () => {
+            column.setAttribute("class", "column-hover");
+        });
     }
 }
+

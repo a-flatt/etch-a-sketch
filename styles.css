@@ -16,3 +16,14 @@
     width: 50px;
     margin-top: 5px;
 }
+
+.column-hover {
+
+    background-color: green; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
